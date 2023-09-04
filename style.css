@@ -1,0 +1,41 @@
+body{
+    background-image:url(/Img/wallpaperflare.com_wallpaper.jpg)
+}
+.CON-T{
+    display: flex;
+    justify-content: center;
+}
+.CONT-IMG{
+    display: flex;
+        justify-content: center;
+}
+.moon{
+    padding-bottom: 5px;
+    width: 300px;
+    height: 300px;
+}
+.TT{
+    display: flex;
+    justify-content: center;
+}
+.THE{
+    padding-right: 5px;
+    font-weight: bolder;
+    color: rgb(255, 0, 0);
+    font-size:25PX;
+}
+.TITLE{
+    padding-right: 5px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-size:50PX;
+    animation:glowFR 1s infinite alternate ;
+}
+@keyframes glowFR {
+    from {
+      text-shadow: 0 0 05px #ff0000, 0 0 10px #ff0000, 0 0 15px #ff0000, 0 0 20px #ff0000, 0 0 25px #ff0000, 0 0 30px #ff0000, 0 0 35px #ff0000;
+    }
+    to {
+      text-shadow: 0 0 10px #B01B1B, 0 0 15px #B01B1B, 0 0 20px #B01B1B, 0 0 25px #B01B1B, 0 0 30px #B01B1B, 0 0 35px #B01B1B, 0 0 400px #B01B1B;
+    }
+  }
